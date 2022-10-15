@@ -1,0 +1,45 @@
+body {
+    background-image: url("Obloha.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    position: relative;
+}
+
+.slnko {
+    width: 20%;
+    height: auto;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    left: 50%;
+}
+
+.vtak {
+    background-size: contain;
+    width: 10%;
+    height: auto;
+    position: absolute;
+}
+
+.flip {
+    transform: scaleX(-1);
+}
+
+.top{
+    top: 0;
+}
+
+.bottom {
+    bottom: 0;
+}
+
+.left{
+    left: 0;
+}
+
+.right{
+    right: 0;
+}
